@@ -515,7 +515,6 @@ if test "$enable_openmp" != no; then
 fi
 
 # Enable support for OpenCL
-ax_cv_check_cl_libcl=no
 AX_OPENCL([C])
 CFLAGS="$CL_CFLAGS $CFLAGS"
 CPPFLAGS="$CL_CFLAGS $CPPFLAGS"
