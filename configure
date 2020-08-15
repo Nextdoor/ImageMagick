@@ -10605,9 +10605,6 @@ if test "$enable_openmp" != no; then
   fi
 fi
 
-# Enable support for OpenCL
-ax_cv_check_cl_libcl=no
-
 
 
 
